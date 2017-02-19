@@ -1,3 +1,4 @@
+
 # RPi_Node
 RESTful API for Raspberry Pi
 # Setup för Raspberry Pi
@@ -14,7 +15,10 @@ RESTful API for Raspberry Pi
 
 ## Setup
 * Create folder
-* get clone https://github.com/johansundstrom/RPi_Node
+```javascript
+get clone https://github.com/johansundstrom/RPi_Node
+```
+
 * npm init (setup package.json)
 * npm install express --save (install Express, --save uppdaterar package.json
 * npm install connect --save (install Connect)
