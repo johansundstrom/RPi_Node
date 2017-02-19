@@ -1,4 +1,4 @@
- # RPi_Node
+# RPi_Node
 RESTful API for Raspberry Pi
 # Setup för Raspberry Pi
 
@@ -21,3 +21,5 @@ RESTful API for Raspberry Pi
 
 ## Starta
 node server.js (Startar)
+
+## Johan Sundström
