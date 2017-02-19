@@ -36,7 +36,7 @@ npm install pi-gpio --save
 
 ## Starta
 ```javascript
-node server.js
+sudo node server.js
 ```
 
 ## Johan Sundström
