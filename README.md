@@ -13,7 +13,7 @@ RESTful API for Raspberry Pi
 * Använder pin 12 (gpio 18) som input
 
 ## Setup
-Skapa projektmapp (exempelvis 'Proj')
+Skapa projektmapp (exempelvis 'Proj') genom ```mkdir Proj``` och ```cd Proj```
 ```javascript
 get clone https://github.com/johansundstrom/RPi_Node
 ```
