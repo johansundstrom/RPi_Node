@@ -2,17 +2,22 @@
 RESTful API for Raspberry Pi
 # Setup för Raspberry Pi
 
+## Filer
 * server.js ==> Server side NODE
 * index.html ==> webbfil
 * client.js ==> Client side 
 
+## GPIO
 * Använder pin 11 (gpio 17) som input
 * Använder pin 12 (gpio 18) som input
 
-Create folder
-* Install NODE (npm init)
-* Install Express (npm install express --save)
-* Install Connect (npm install connect --save)
-* npm install pi-gpio --save
+## Setup
+* Create folder
+* get clone https://github.com/johansundstrom/RPi_Node
+* npm init (setup package.json)
+* npm install express --save (install Express, --save uppdaterar package.json
+* npm install connect --save (install Connect)
+* npm install pi-gpio --save (install Pi-GPIO)
 
-Starta ==> node server.js
+## Starta
+node server.js (Startar)
