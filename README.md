@@ -4,8 +4,9 @@ RESTful API for Raspberry Pi
 
 ## Filer
 * server.js ==> Server side NODE
-* index.html ==> webbfil
-* client.js ==> Client side 
+* index.html ==> Webbfil
+* client.js ==> Client side JS
+* style.css ==> stil
 
 ## GPIO
 * Använder pin 11 (gpio 17) som input
