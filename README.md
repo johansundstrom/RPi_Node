@@ -13,5 +13,6 @@ Create folder
 * Install NODE (npm init)
 * Install Express (npm install express --save)
 * Install Connect (npm install connect --save)
+* npm install pi-gpio
 
 Starta ==> node server.js
