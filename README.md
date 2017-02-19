@@ -1,4 +1,4 @@
-
+(
 # RPi_Node
 RESTful API for Raspberry Pi
 # Setup för Raspberry Pi
@@ -22,7 +22,7 @@ Setup file package.json
 ```javascript
 npm init
 ```
-Install Express, --save uppdaterar package.json
+Install Express, (--save uppdaterar dependencies i package.json)
 ```javascript
 npm install express --save
 ```
