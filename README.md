@@ -1,3 +1,4 @@
+
 # RPi_Node
 RESTful API for Raspberry Pi
 # Setup för Raspberry Pi
@@ -13,6 +14,5 @@ Create folder
 Install NODE (npm init)
 Install Express (npm install express --save)
 Install Connect (npm install connect --save)
-
 
 Starta ==> node server.js
