@@ -4,10 +4,10 @@ Syftet med detta proj är att testa RESTful API for Raspberry Pi. Genom att anv�
 # Setup för Raspberry Pi
 
 ## Filer
-* server.js ==> Server side NODE
-* index.html ==> Webbfil
-* client.js ==> Client side JS
-* style.css ==> stil
+* server.js (Server side NODE)
+* index.html (Webbfil)
+* client.js (Client side JavaScript)
+* style.css (stil)
 
 ## GPIO
 * Använder pin 11 (gpio 17) som input
@@ -17,7 +17,7 @@ Syftet med detta proj är att testa RESTful API for Raspberry Pi. Genom att anv�
 [eLinux.org](http://elinux.org/RPi_Low-level_peripherals)
 
 ## Setup
-Skapa projektmapp (exempelvis 'Proj') genom ```mkdir Proj``` och ```cd Proj```
+Skapa projektmapp i filsystemet på lämplig plats (exempelvis 'Proj') genom ```mkdir Proj``` och ```cd Proj```
 ```javascript
 get clone https://github.com/johansundstrom/RPi_Node
 ```
@@ -25,7 +25,7 @@ Setup file package.json
 ```javascript
 npm init
 ```
-Install Express, (--save uppdaterar dependencies i package.json)
+Install Express, (--save-tillägget uppdaterar dependencies i package.json)
 ```javascript
 npm install express --save
 ```
