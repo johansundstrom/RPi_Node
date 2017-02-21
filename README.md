@@ -47,4 +47,5 @@ npm install pi-gpio --save
 sudo node server.js
 ```
 
-## Johan Sundström
+## Notes to self
+mongod --dbpath "C:\Program Files\MongoDB\Data\DB"
