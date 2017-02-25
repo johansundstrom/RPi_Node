@@ -19,11 +19,11 @@ Projektet testar RESTful API for Raspberry Pi. Genom att använda NODE.JS och Ex
 ## Setup
 Skapa projektmapp i filsystemet på lämplig plats (exempelvis 'Proj') genom ```mkdir Proj``` och ```cd Proj```. På Raspberry Pi i terminalfönstret...
 ```javascript
-get clone https://github.com/johansundstrom/RPi_Node
+git clone https://github.com/johansundstrom/RPi_Node
 ```
 I windows används git-kommandot efter att GIT är installerat (https://git-scm.com).
 ```dos
-git clone https://github.com/johansundstrom/RPi_Node
+get clone https://github.com/johansundstrom/RPi_Node
 ```
 Följ guiden för att sätta upp filen package.json
 ```javascript
