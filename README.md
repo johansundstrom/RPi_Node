@@ -25,7 +25,7 @@ I windows används git-kommandot efter att GIT är installerat (https://git-scm.
 ```dos
 git clone https://github.com/johansundstrom/RPi_Node
 ```
-Setup file package.json
+Följ guiden för att sätta upp filen package.json
 ```javascript
 npm init
 ```
@@ -33,19 +33,15 @@ Install Express, (--save-tillägget uppdaterar dependencies i package.json)
 ```javascript
 npm install express --save
 ```
-Install Connect
-```javascript
-npm install connect --save
-```
-Install Pi-GPIO)
+Install Pi-GPIO
 ```javascript
 npm install pi-gpio --save
 ```
 
 ## Starta
 ```javascript
-sudo node server.js
+node server.js
 ```
 
 ## Notes to self
-mongod --dbpath "C:\Program Files\MongoDB\Data\DB"
+mongod --dbpath "C:\Program Files\MongoDB\Data\DB". Onödiga problem med core-uppdatering löses med [http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js]http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js
