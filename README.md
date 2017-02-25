@@ -21,7 +21,7 @@ Skapa projektmapp i filsystemet på lämplig plats (exempelvis 'Proj') genom ```
 ```javascript
 get clone https://github.com/johansundstrom/RPi_Node
 ```
-I windows används git-kommandot (https://git-scm.com/)
+I windows används git-kommandot efter att GIT är installerat (https://git-scm.com).
 ```dos
 git clone https://github.com/johansundstrom/RPi_Node
 ```
