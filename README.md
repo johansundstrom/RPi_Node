@@ -44,4 +44,4 @@ node server.js
 ```
 
 ## Notes to self
-mongod --dbpath "C:\Program Files\MongoDB\Data\DB". Onödiga problem med core-uppdatering löses med [http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js]http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js
+mongod --dbpath "C:\Program Files\MongoDB\Data\DB". Onödiga problem med core-uppdatering löses med [http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js](http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js)
