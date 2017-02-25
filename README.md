@@ -10,8 +10,8 @@ Projektet testar RESTful API for Raspberry Pi. Genom att använda NODE.JS och Ex
 * style.css (stil)
 
 ## GPIO
-* Använder pin 11 (gpio 17) som input
-* Använder pin 12 (gpio 18) som input
+* Använder pin 16 (GPIO 23) som input
+* Använder pin 22 (GPIO 25) som input
 
 ![GPIO](images/GPIO2.png)
 [eLinux.org](http://elinux.org/RPi_Low-level_peripherals)
