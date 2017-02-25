@@ -1,6 +1,6 @@
 # RPi_Node
-Under uppbyggnad!!!!
-Syftet med detta proj är att testa RESTful API for Raspberry Pi. Genom att använda NODE.JS och Express.js skapar vi en server.js som sätter och läser RPi's GPIO. Dessa tillgängliggörs sedan genom Express REST API. HTML-filen som ges på localhost:3000 är index.html var uppgift är att göra ett 
+Projektet testar RESTful API for Raspberry Pi. Genom att använda NODE.JS och Express.js skapas server.js som initialiserar och läser RPi's GPIO. Dessa tillgängliggörs sedan genom Express REST API. Index.html på localhost:3000 laddar client.js och tar emot värden på http://localhost:3000/index.html/input/pin#
+
 # Setup för Raspberry Pi
 
 ## Filer
