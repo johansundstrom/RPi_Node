@@ -1,21 +1,22 @@
 window.onload = function() {
     var url,
         i,
-        jqxhr;
+        ports = [23, 25]; // the GPIO ports we will read
 
-    for (i = 0; i < 2; i++) {
-        url = document.URL + 'inputs/' + i;
-        jqxhr = $.getJSON(url, function(data) {
-            console.log('API response received');
-            $('#input').append('<div>GPIO input port ' + data['gpio'] +
-                ' on pin ' + data['pin'] +
-                ' value is ' + data['value'] + '<div>');
-        });
+    for (i in ports) {
+        $('#input_' + ports[i]).html('Reading port ' + ports[i] + ' value...');
     }
-};
 
-setInterval( function ()  {
-    for  (i  in  ports)  {
-        // call the API for each input port here
-    }
-},  1000);  // setInterval to 1 second
+    setInterval(function() {
+        for (i in ports) {
+            url = document.URL + 'inputs/' + ports[i];
+            console.log('making API call ' + url);
+
+            $.getJSON(url, function(data) {
+                console.log('API response received. port ' + data.gpio + ' value = ' + data.value);
+                $('#input_' + data.gpio).html('GPIO port ' + data.gpio + ' (pin ' + data.pin + ')' + ' value is ' + data.value);
+            });
+        } // for 
+    }, 1000); // setInterval
+
+}; //onload

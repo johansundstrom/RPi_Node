@@ -1,20 +1,27 @@
-
+<!-- web client for a simple server-side application to demonstrate running a node API Appserver on a Raspberry Pi to display I/O values in a web browser -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8" />
-    <title>My Express API server example</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <link href="style.css" rel="stylesheet">
+    <title>GPIO REST-api</title>
+    <link src="/css" <script src="http://code.jquery.com/jquery-latest.js">
+    </script>
+    <!-- load our client-side app code which makes the API calls to our server -->
     <script src="client.js"></script>
 </head>
 
 <body>
-    <h1>My Express API server example</h1>
+    <h1>Raspberry Pi GPIO REST-api</h1>
     <h2>Inputs</h2>
-    <div id="input"></div>
+    <div id="inputs">
+        <div id="input_23">
+            <p>...</p>
+        </div>
+        <div id="input_25">
+            <p>...</p>
+        </div>
+    </div>
 </body>
 
 </html>
