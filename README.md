@@ -1,3 +1,4 @@
+
 # Raspberry Pi RESTful API med GPIO
 Projektet testar RESTful API for Raspberry Pi. Genom att använda NODE.JS och Express.js skapas server.js som initialiserar och läser RPi's GPIO. Dessa tillgängliggörs sedan genom Express REST API. Index.html på localhost:3000 laddar client.js och tar emot värden på http://localhost:3000/index.html/input/pin#
 
@@ -35,6 +36,7 @@ npm install pi-gpio
 ```javascript
 node server.js
 ```
+## Problem
 
 ## Notes to self
 mongod --dbpath "C:\Program Files\MongoDB\Data\DB". Onödigt problem med core-uppdatering och ```gpio-admin.c``` löses med [http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js](http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js)
