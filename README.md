@@ -21,10 +21,6 @@ Skapa generell projektyta i filsystemet på lämplig plats (exempelvis '~/Proj')
 ```javascript
 git clone https://github.com/johansundstrom/RPi_Node
 ```
-I windows används git-kommandot efter att GIT är installerat (https://git-scm.com).
-```dos
-get clone https://github.com/johansundstrom/RPi_Node
-```
 ```
 Install Express, (--save-tillägget uppdaterar dependencies i package.json)
 ```javascript
