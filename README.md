@@ -40,7 +40,9 @@ node server.js
 mongod --dbpath "C:\Program Files\MongoDB\Data\DB". Onödigt problem med core-uppdatering och ```gpio-admin.c``` löses med [http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js](http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js)
 
 ## Setup File Share och VNCServer
-```sudo apt update && sudo apt full-upgrade```
+```bash
+sudo apt update && sudo apt full-upgrade
+```
 ```sudo apt install -y tightvncserver```
 ```sudo apt install -y xrdp```
 ```sudo apt install -y samba```
