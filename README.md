@@ -39,6 +39,27 @@ node server.js
 ## Notes to self
 mongod --dbpath "C:\Program Files\MongoDB\Data\DB". Onödigt problem med core-uppdatering och ```gpio-admin.c``` löses med [http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js](http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js)
 
+## Setup File Share och VNCServer
+1) sudo apt update && sudo apt full-upgrade
+3) sudo apt install -y tightvncserver
+4) sudo apt install -y xrdp
+5) sudo apt install -y samba
+6) Microsoft Remote Desktop
+7) sudo leafpad /etc/samba/smb.conf &
+8) Lägg till i slutet...
+```
+[PiShare]
+ comment=Raspi Share
+ path=/home/pi
+ browseable=Yes
+ writeable=Yes
+ only guest=No
+ create mask=0740
+ directory mask=0750
+ public=no
+9) sudo smbpasswd -a pi
+10) net use p:  \\raspberrypi\PiShare
+```
 ## GPIO manipulation
 ```javascript
 sudo echo 17 > /sys/class/gpio/export
