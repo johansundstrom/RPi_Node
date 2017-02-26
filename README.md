@@ -21,7 +21,7 @@ Skapa generell projektyta i filsystemet på lämplig plats (exempelvis '~/Proj')
 ```javascript
 git clone https://github.com/johansundstrom/RPi_Node
 ```
-Install Express, (--save-tillägget uppdaterar dependencies i package.json)
+Install Express
 ```javascript
 npm install express
 ```
