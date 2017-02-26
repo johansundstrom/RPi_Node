@@ -3,7 +3,7 @@ Projektet testar RESTful API for Raspberry Pi. Genom att använda NODE.JS och Ex
 
 # Setup för Raspberry Pi
 
-## Filer
+s## Filer
 * server.js (Server side NODE)
 * index.html (Webbfil)
 * client.js (Client side JavaScript)
@@ -13,7 +13,7 @@ Projektet testar RESTful API for Raspberry Pi. Genom att använda NODE.JS och Ex
 * Använder pin 16 (GPIO 23) som input
 * Använder pin 22 (GPIO 25) som input
 
-![GPIO](images/GPIO2.png)
+a![GPIO](images/GPIO2.png)
 [eLinux.org](http://elinux.org/RPi_Low-level_peripherals)
 
 ## Setup
@@ -43,11 +43,19 @@ mongod --dbpath "C:\Program Files\MongoDB\Data\DB". Onödigt problem med core-up
 ```bash
 sudo apt update && sudo apt full-upgrade
 ```
-```sudo apt install -y tightvncserver```
-```sudo apt install -y xrdp```
-```sudo apt install -y samba```
-Microsoft Remote Desktop
-```sudo leafpad /etc/samba/smb.conf &```
+```bash
+sudo apt install -y tightvncserver
+```
+```bash
+sudo apt install -y xrdp
+```
+```bash
+sudo apt install -y samba
+```
+Starta Microsoft Remote Desktop
+```bash
+sudo leafpad /etc/samba/smb.conf &
+```
 Lägg till i slutet...
 ```
 [PiShare]
