@@ -1,4 +1,3 @@
-
 # Raspberry Pi RESTful API med GPIO
 Projektet testar RESTful API for Raspberry Pi. Genom att använda NODE.JS och Express.js skapas server.js som initialiserar och läser RPi's GPIO. Dessa tillgängliggörs sedan genom Express REST API. Index.html på localhost:3000 laddar client.js och tar emot värden på http://localhost:3000/index.html/input/pin#
 
@@ -26,17 +25,14 @@ I windows används git-kommandot efter att GIT är installerat (https://git-scm.
 ```dos
 get clone https://github.com/johansundstrom/RPi_Node
 ```
-Följ guiden för att sätta upp filen package.json
-```javascript
-npm init
 ```
 Install Express, (--save-tillägget uppdaterar dependencies i package.json)
 ```javascript
-npm install express --save
+npm install express
 ```
 Install Pi-GPIO
 ```javascript
-npm install pi-gpio --save
+npm install pi-gpio
 ```
 
 ## Starta
