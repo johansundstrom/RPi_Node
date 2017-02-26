@@ -56,7 +56,7 @@ Starta Microsoft Remote Desktop
 ```bash
 sudo leafpad /etc/samba/smb.conf &
 ```
-Lägg till i slutet...
+Lägg till följande i slutet på filen smb.conf...
 ```
 [PiShare]
  comment=Raspi Share
@@ -68,8 +68,10 @@ Lägg till i slutet...
  directory mask=0750
  public=no
  ```
-9. sudo smbpasswd -a pi
-10. net use p:  \\raspberrypi\PiShare
+```bash
+sudo smbpasswd -a pi
+```
+Montera enhet med ```net use p:  \\raspberrypi\PiShare```
 
 ## GPIO manipulation
 ```javascript
