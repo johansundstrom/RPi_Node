@@ -13,7 +13,7 @@ Projektet testar RESTful API for Raspberry Pi. Genom att använda NODE.JS och Ex
 * Använder pin 16 (GPIO 23) som input
 * Använder pin 22 (GPIO 25) som input
 
-a![GPIO](images/GPIO2.png)
+![GPIO](images/GPIO2.png)
 [eLinux.org](http://elinux.org/RPi_Low-level_peripherals)
 
 ## Setup
