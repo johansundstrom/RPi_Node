@@ -3,7 +3,7 @@ Projektet testar RESTful API for Raspberry Pi. Genom att använda NODE.JS och Ex
 
 # Setup för Raspberry Pi
 
-s## Filer
+## Filer
 * server.js (Server side NODE)
 * index.html (Webbfil)
 * client.js (Client side JavaScript)
