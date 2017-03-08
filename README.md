@@ -32,11 +32,9 @@ npm install pi-gpio
 
 ## Starta
 ```javascript
-node server.js
+sudo node server
 ```
 ## Problem
-
-## Notes to self
 mongod --dbpath "C:\Program Files\MongoDB\Data\DB". Onödigt problem med core-uppdatering och ```gpio-admin.c``` löses med [http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js](http://stackoverflow.com/questions/36735925/gpio-over-raspberry-pi-3-model-b-using-node-js)
 
 ## Setup File Share och VNCServer
@@ -71,8 +69,7 @@ Lägg till följande i slutet på filen smb.conf...
 ```bash
 sudo smbpasswd -a pi
 ```
-Montera enhet med ```net use p:  \\raspberrypi\PiShare```
-
+Montera enhet med ```net use p:  \\raspberrypi\PiShare``` 
 ## GPIO manipulation
 ```javascript
 sudo echo 17 > /sys/class/gpio/export
