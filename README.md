@@ -1,22 +1,22 @@
 # Raspberry Pi RESTful API med GPIO
 Projektet testar RESTful API for Raspberry Pi med JavaScriptbiblioteken NODE och Express. Filen ```server.js``` initialiserar och läser RPi's GPIO. GPIO-status tillgängliggörs genom RESTful API via Express. ```Index.html``` nås via http://localhost:3000 som inkluderar ```client.js``` och tar emot värden på http://localhost:3000/index.html/input/pin#
 
-# Setup för Raspberry Pi
+## Setup för Raspberry Pi
 
-## Filer
+### Filer
 * server.js (Server side NODE)
 * index.html (Webbfil)
 * client.js (Client side JavaScript)
 * style.css (stil)
 
-## GPIO
+### GPIO
 * Använder pin 16 (GPIO 23) som input
 * Använder pin 22 (GPIO 25) som input
 
 ![GPIO](images/GPIO2.png)
 [eLinux.org](http://elinux.org/RPi_Low-level_peripherals)
 
-## Setup
+## Installera
 Skapa generell projektyta i filsystemet på lämplig plats (exempelvis '~/Proj') genom ```mkdir Proj``` och ```cd Proj```. På Raspberry Pi i terminalfönstret...
 ```javascript
 git clone https://github.com/johansundstrom/RPi_Node
@@ -34,7 +34,7 @@ Install Pi-GPIO
 npm install pi-gpio
 ```
 
-## Starta
+### Starta
 ```javascript
 sudo node server
 ```
