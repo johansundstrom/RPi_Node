@@ -21,7 +21,7 @@ sudo apt install -y samba
 sudo cp /etc/samba/smb.conf /etc/samba/smb.orginal
 
 sudo cat 
-#ewrite  samba share
+#write  samba share
 sudo echo '[PiShare]' >> /etc/samba/smb.conf
 sudo echo ' comment=Raspi Share' >> /etc/samba/smb.conf
 sudo echo ' path=/home/pi' >> /etc/samba/smb.conf
