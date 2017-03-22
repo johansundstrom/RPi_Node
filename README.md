@@ -17,7 +17,7 @@ Projektet testar RESTful API for Raspberry Pi med JavaScriptbiblioteken NODE och
 [eLinux.org](http://elinux.org/RPi_Low-level_peripherals)
 
 ## Installera
-Skapa generell projektyta i filsystemet på lämplig plats (exempelvis '~/Proj') genom ```mkdir Proj``` och ```cd Proj```. På Raspberry Pi i terminalfönstret...
+Skapa generell projektyta i filsystemet på lämplig plats (exempelvis '~/proj') genom ```mkdir proj``` och ```cd Proj```. På Raspberry Pi i terminalfönstret...
 ```javascript
 git clone https://github.com/johansundstrom/RPi_Node
 ```
