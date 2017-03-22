@@ -1,5 +1,5 @@
 # Raspberry Pi RESTful API med GPIO
-Projektet testar RESTful API for Raspberry Pi med JavaScriptbiblioteken NODE och Express. Filen ```server.js``` initialiserar och läser RPi's GPIO. GPIO-status tillgängliggörs genom RESTful API via Express. ```Index.html``` nås via http://localhost:3000 som inkluderar ```client.js``` och tar emot värden på http://localhost:3000/index.html/input/pin#
+Projektet använder Raspberry Pi och testar RESTful API med NODE och Express. Filen ```server.js``` initialiserar och läser RPi's GPIO. GPIO-status tillgängliggörs genom RESTful API via Express middleware. ```Index.html``` nås via http://localhost:3000 (standardport) som tillsammans med ```client.js``` läser och visar status på respektive http://localhost:3000/index.html/input/pin#
 
 ## Setup för Raspberry Pi
 
